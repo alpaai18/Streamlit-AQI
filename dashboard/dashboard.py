@@ -6,7 +6,7 @@ import time
 
 import streamlit as st
 
-df_all = pd.read_csv("df_all.csv")
+df_all = pd.read_csv("./dashboard/df_all.csv")
 
 with st.sidebar:
     st.title('Selamat Datang di Project Streamlit Pertama Apau 😄')
