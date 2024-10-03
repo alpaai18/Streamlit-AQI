@@ -8,4 +8,8 @@ berikut merupakan sedikit tata cara menjalankan streamlit di local
 - Open PowerShell
 - Copy Path Directory Folder zip
 - ``` cd 'Path_Lengkap_Folder_Zip' ```
+- ``` python -m venv venv ```
+- ``` venv\Scripts\Activate```
+- ``` pip install -r requirements.txt```
+- ``` cd dashboard```
 - ``` streamlit run dashboard.py ```
