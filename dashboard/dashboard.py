@@ -6,12 +6,12 @@ import time
 
 import streamlit as st
 
-df_all = pd.read_csv("./dashboard/df_all.csv")
+df_all = pd.read_csv("dashboard/df_all.csv")
 
 with st.sidebar:
     st.title('Selamat Datang di Project Streamlit Pertama Apau 😄')
 
-    st.image("./dashboard/Logo Streamlit.jpg")
+    st.image("dashboard/Logo Streamlit.jpg")
 
     st.markdown("Documentasi Coding")
     st.page_link("https://github.com/alpaai18", label="Github", icon="🖥️")
